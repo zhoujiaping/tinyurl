@@ -1,5 +1,7 @@
+# 介绍
 这是一个短网址的应用实现（部分实现）。
 
+# 原理
 短网址原理及实现
 https://zhuanlan.zhihu.com/p/67919615?from_voters_page=true
 
@@ -17,5 +19,20 @@ hash算法和随机数算法，都无法避免短网址冲突。
 这样一借一还，就保证了每次生成短网址的耗费的操作次数是几乎一样的。
 
 具体过程，可以参考tinyurl.jpg
+
+# 使用
+0. 准备环境
+   安装nodejs、mysql
+1. 命令行执行
+```node init.js```
+2. 启动服务
+```node server.js```
+3. 访问服务
+ - 生成短网址 http://localhost:1337/gen-tiny-url?longUrl=xxx
+ - 自定义短网址 http://localhost:1337/cust-tiny-url?longUrl=xxx&tinyUrl=yyy
+ - 查询短网址对应的长网址 todo
+ - 访问短网址重定向到长网址 todo
+ - 查询长网址对应的短网址 todo
+
 
 
