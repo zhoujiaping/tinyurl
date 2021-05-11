@@ -1,0 +1,155 @@
+2021-05-11T03:03:05.675Z [ba567859-c328-43dd-9b49-e280bfac9b45] [undefined] error: TypeError: Cannot convert object to primitive value
+    at Printf.template (D:\home\tinyurl\log.js:37:82)
+    at Printf.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\printf.js:11:26)
+    at Format.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\combine.js:20:24)
+    at DerivedLogger._transform (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\logger.js:305:29)
+    at DerivedLogger.Transform._read (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\create-logger.js:81:14)
+2021-05-11T03:08:38.601Z [21eb20f2-4a36-47b2-ac9d-b98fb035b257] [38d81ea3-ec53-4c9a-88cc-71a38359000b] error: TypeError: Cannot convert object to primitive value
+    at Printf.template (D:\home\tinyurl\log.js:37:82)
+    at Printf.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\printf.js:11:26)
+    at Format.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\combine.js:20:24)
+    at DerivedLogger._transform (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\logger.js:305:29)
+    at DerivedLogger.Transform._read (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\create-logger.js:81:14)
+2021-05-11T03:12:55.829Z [db56fe93-2d48-473f-a5aa-00e2230b0720] [dfd41d43-16fb-4505-8a7e-67654cac1d92] error: TypeError: Cannot convert object to primitive value
+    at Printf.template (D:\home\tinyurl\log.js:37:82)
+    at Printf.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\printf.js:11:26)
+    at Format.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\combine.js:20:24)
+    at DerivedLogger._transform (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\logger.js:305:29)
+    at DerivedLogger.Transform._read (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\create-logger.js:81:14)
+2021-05-11T03:13:22.807Z [f998afe0-ab99-4be0-9cb5-3e7b1a0d5728] error: TypeError: Cannot convert object to primitive value
+    at Printf.template (D:\home\tinyurl\log.js:37:62)
+    at Printf.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\printf.js:11:26)
+    at Format.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\combine.js:20:24)
+    at DerivedLogger._transform (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\logger.js:305:29)
+    at DerivedLogger.Transform._read (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\create-logger.js:81:14)
+2021-05-11T03:19:16.015Z [dfc7ee3c-4750-4b65-b1ea-ebc807b69ebd] error: TypeError: Cannot convert object to primitive value
+    at Printf.template (D:\home\tinyurl\log.js:37:62)
+    at Printf.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\printf.js:11:26)
+    at Format.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\combine.js:20:24)
+    at DerivedLogger._transform (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\logger.js:305:29)
+    at DerivedLogger.Transform._read (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\create-logger.js:81:14)
+2021-05-11T03:20:53.427Z [ed1390eb-7990-49cb-8448-5e3650bbb5bf] [81dd2bee-965b-4751-aa36-fefe2127bb03] error: TypeError: Cannot convert object to primitive value
+    at Printf.template (D:\home\tinyurl\log.js:35:23)
+    at Printf.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\printf.js:11:26)
+    at Format.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\combine.js:20:24)
+    at DerivedLogger._transform (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\logger.js:305:29)
+    at DerivedLogger.Transform._read (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\create-logger.js:81:14)
+2021-05-11T03:21:35.404Z [d1f69818-e7a0-49b3-afe5-3cd953d6ac04] [8575a342-7915-4b5c-9e7d-2035dbbfed90] error: TypeError: info.message.toString is not a function
+    at Printf.template (D:\home\tinyurl\log.js:35:24)
+    at Printf.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\printf.js:11:26)
+    at Format.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\combine.js:20:24)
+    at DerivedLogger._transform (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\logger.js:305:29)
+    at DerivedLogger.Transform._read (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\create-logger.js:81:14)
+2021-05-11T03:22:50.871Z [74fc76a2-bc45-430b-a436-af30abb28be1] [90e680a0-f372-433e-aa9f-395d3367c153] error: TypeError: Cannot convert object to primitive value
+    at Printf.template (D:\home\tinyurl\log.js:37:82)
+    at Printf.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\printf.js:11:26)
+    at Format.transform (D:\home\tinyurl\node_modules\_logform@2.2.0@logform\combine.js:20:24)
+    at DerivedLogger._transform (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\logger.js:305:29)
+    at DerivedLogger.Transform._read (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (D:\home\tinyurl\node_modules\_readable-stream@3.6.0@readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (D:\home\tinyurl\node_modules\_winston@3.3.3@winston\lib\winston\create-logger.js:81:14)
+2021-05-11T07:53:58.034Z [884e791e-3132-4a5c-9ad5-281f8ef3a6e2] [c077b76c-f64e-40c0-afbc-b79d82287f84] error: TypeError: data.substr is not a function
+    at Object.generateTinyUrl (D:\home\tinyurl\tiny.js:26:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\home\tinyurl\server.js:36:17
+    at async Server.<anonymous> (D:\home\tinyurl\server.js:15:2)
+2021-05-11T07:53:59.288Z [884e791e-3132-4a5c-9ad5-281f8ef3a6e2] [ace9ef86-4ef7-4ef1-bdf2-8b9e69b00b46] error: TypeError: data.substr is not a function
+    at Object.generateTinyUrl (D:\home\tinyurl\tiny.js:26:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\home\tinyurl\server.js:36:17
+    at async Server.<anonymous> (D:\home\tinyurl\server.js:15:2)
+2021-05-11T08:05:25.120Z [1bd9d80c-71be-46ad-bf25-dcaa3e35bae4] [8c7a5969-7028-4083-b6e6-0e1cfbfd1e4b] error: ReferenceError: getCtx is not defined
+    at D:\home\tinyurl\tiny.js:18:20
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+    at FSReqCallback.callbackTrampoline (internal/async_hooks.js:131:14)
+2021-05-11T08:05:57.836Z [2eeb0ea5-c3af-45e6-a8c4-ad3bdcbb751f] [22a94da3-f067-464e-91ec-2318ecc5fb15] error: ReferenceError: als is not defined
+    at D:\home\tinyurl\tiny.js:18:46
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+    at FSReqCallback.callbackTrampoline (internal/async_hooks.js:131:14)
+2021-05-11T08:30:50.737Z [e55134b9-b845-4316-b8b0-488459da833e] [eb814f0b-74de-4a69-ac58-1cb863b7e427] error: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer or Uint8Array. Received undefined
+    at write_ (_http_outgoing.js:696:11)
+    at ServerResponse.write (_http_outgoing.js:661:15)
+    at D:\home\tinyurl\server.js:36:8
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.<anonymous> (D:\home\tinyurl\server.js:14:2)
+2021-05-11T08:30:50.819Z [e55134b9-b845-4316-b8b0-488459da833e] [9404c608-2db1-4941-a2ae-b22ffd558df4] error: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer or Uint8Array. Received undefined
+    at write_ (_http_outgoing.js:696:11)
+    at ServerResponse.write (_http_outgoing.js:661:15)
+    at D:\home\tinyurl\server.js:36:8
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.<anonymous> (D:\home\tinyurl\server.js:14:2)
+2021-05-11T08:31:05.047Z [16210d4a-2618-4643-a482-5b5bdc6754df] [5b1879eb-598d-4e28-ac8a-61dcf8a818ba] error: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer or Uint8Array. Received undefined
+    at write_ (_http_outgoing.js:696:11)
+    at ServerResponse.write (_http_outgoing.js:661:15)
+    at D:\home\tinyurl\server.js:36:8
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.<anonymous> (D:\home\tinyurl\server.js:14:2)
+2021-05-11T08:31:06.030Z [16210d4a-2618-4643-a482-5b5bdc6754df] [bba9fb91-09ca-44fd-9108-45659cef7c15] error: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer or Uint8Array. Received undefined
+    at write_ (_http_outgoing.js:696:11)
+    at ServerResponse.write (_http_outgoing.js:661:15)
+    at D:\home\tinyurl\server.js:36:8
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.<anonymous> (D:\home\tinyurl\server.js:14:2)
+2021-05-11T09:16:59.886Z [f88c1893-581d-470b-93a3-37dff972997c] [b6d252d4-50c1-444c-a1e9-4314214c4fda] error: TypeError: this.query is not a function
+    at beginTransaction (D:\home\tinyurl\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:151:15)
+    at PoolConnection.conn.constructor.beginTransaction (D:\home\tinyurl\db.js:49:10)
+    at D:\home\tinyurl\db.js:64:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-05-11T09:17:33.664Z [2e5ceee7-8612-4a8a-9761-1cbf4679c75f] [cce31534-f987-430f-bdfb-bd54ae53274c] error: TypeError: this.query is not a function
+    at beginTransaction (D:\home\tinyurl\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:151:15)
+    at PoolConnection.conn.constructor.beginTransaction (D:\home\tinyurl\db.js:49:10)
+    at D:\home\tinyurl\db.js:64:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-05-11T09:20:57.709Z [1c895341-82c1-42df-a2eb-4865da2b6887] [aef8a780-592f-42b3-b67e-bc4b82435293] error: TypeError: this.query is not a function
+    at beginTransaction (D:\home\tinyurl\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:151:15)
+    at PoolConnection.conn.beginTransaction (D:\home\tinyurl\db.js:44:10)
+    at D:\home\tinyurl\db.js:59:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-05-11T09:20:58.609Z [1c895341-82c1-42df-a2eb-4865da2b6887] [70c3e8cb-a191-4cf3-ae7d-868fd5652854] error: TypeError: this.query is not a function
+    at beginTransaction (D:\home\tinyurl\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:151:15)
+    at PoolConnection.conn.beginTransaction (D:\home\tinyurl\db.js:44:10)
+    at D:\home\tinyurl\db.js:59:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-05-11T09:21:34.433Z [b2b8e818-a678-4b83-97fd-9580adc2884c] [b8f2c942-ebdc-4842-8c15-aca389bb9bf4] error: TypeError: this.query is not a function
+    at beginTransaction (D:\home\tinyurl\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:151:15)
+    at PoolConnection.conn.beginTransaction (D:\home\tinyurl\db.js:44:10)
+    at D:\home\tinyurl\db.js:60:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)

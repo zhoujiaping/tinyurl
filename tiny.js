@@ -10,11 +10,8 @@ async function generateTinyUrl({longUrl}){
 	if(!longUrl){
 		throw new Error(`invalid longUrl => ${longUrl}`);
 	}
-	return await db.doInTx(async (err,conn)=>{
-		if(err){
-			logger.error(err);
-			return;
-		}
+	
+	return await db.doInTx(async (conn)=>{	
 		//如果长网址已经关联了短网址，则直接返回
 		let req = {
 			conn,
@@ -67,7 +64,8 @@ async function generateTinyUrl({longUrl}){
 		req.params = [tinyUrl,id];
 		await db.query(req);
 		return tinyUrl;
-	});
+	})
+	
 }
 //自定义短码
 async function customTinyUrl({tinyUrl,longUrl}){
@@ -77,11 +75,8 @@ async function customTinyUrl({tinyUrl,longUrl}){
 	if(!tinyUrl || !/[0-9a-zA-Z]{1,6}/.test(tinyUrl)){
 		throw new Error(`invalid tinyUrl => ${tinyUrl}`);
 	}
-	return await db.doInTx(async (err,conn)=>{
-		if(err){
-			logger.error(err);
-			return;
-		}
+
+	return await db.doInTx(async (conn)=>{
 		//如果短网址或者长网址已经存在，就直接返回
 		let req = {
 			conn,
