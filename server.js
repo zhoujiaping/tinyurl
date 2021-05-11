@@ -3,7 +3,7 @@ const url = require('url');
 const uuid = require('uuid');
 const querystring = require('querystring');
 const log = require('./log');
-const logger = log.defaultLogger;
+const logger = log.newLogger('server');
 
 const {als} = require('./als');
 

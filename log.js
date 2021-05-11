@@ -42,7 +42,8 @@ const myFormat = printf(info => {
   let uid = ctx?ctx.uid:''
   return `${info.timestamp} [${info.label}] [${uid}] ${info.level}: ${msg}`;
 });
-function newLogger(loglabel = uuid.v4()){
+function newLogger(loglabel = uuid.v4().split('-').join('')){
+  loglabel = loglabel.substr(0,16) + '                '.substr(0,16-loglabel.length)//16个空格
   winston.addColors(customLevels.colors);
 
     const logger = createLogger({

@@ -1,7 +1,7 @@
 const mysql = require('mysql');
 const log = require('./log');
 const {als} = require('./als');
-const logger = log.defaultLogger;//使用默认日志记录器
+const logger = log.newLogger('db');
 const db = {};
 var pool  = mysql.createPool({  //创建连接池
   connectionLimit : 10,
@@ -31,7 +31,6 @@ db.conn = function(){
 			if (err) {
 				reject(err);
 			}else{
-				init(conn)
 				resolve(conn);
 			}
 		});

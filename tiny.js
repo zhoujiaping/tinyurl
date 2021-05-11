@@ -1,6 +1,6 @@
 const db = require('./db');
 const log = require('./log');
-const logger = log.defaultLogger;
+const logger = log.newLogger('tiny');
 //作为短网址的字符（一共62个，我们的短网址最多6位，所以可以生成62的6次方个短网址）
 const chars = `0123456789abcdegfhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`.split(new RegExp('','igm'));
 
